@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@color/cardview_light_background"
+    android:elevation="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingTop="5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:paddingLeft="15dp">
+
+        <CheckBox
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:checked="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTodo"
+            android:text="Todo"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/cancel_todo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="20dp"
+            android:visibility="visible"
+
+            android:background="@drawable/ic_baseline_clear_24px"
+            />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

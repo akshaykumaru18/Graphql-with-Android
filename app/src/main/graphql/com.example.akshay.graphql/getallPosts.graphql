@@ -1,0 +1,6 @@
+query allPostsQuery{
+    allPosts{
+        title
+        description
+    }
+}

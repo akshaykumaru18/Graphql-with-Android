@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="All"
+        android:id="@+id/all"
+        android:orderInCategory="1"
+        />
+    <item
+        android:title="Active"
+        android:orderInCategory="2"
+        android:id="@+id/active"/>
+    <item
+        android:title="Completed"
+        android:orderInCategory="3"
+        android:id="@+id/completed_item"/>
+    <item
+        android:title="Clear Completed"
+        android:id="@+id/clear_completed"
+        android:orderInCategory="4"/>
+</menu>

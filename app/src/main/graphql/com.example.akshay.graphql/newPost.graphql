@@ -1,0 +1,14 @@
+mutation newPostMutation(
+    $title: String!,
+    $description: String!,
+
+){
+    createPost(
+        title:$title
+        description:$description
+        imageUrl:"null"
+    )
+    {
+        id
+    }
+}
